@@ -1,14 +1,8 @@
-div#memoryGameBackground{
-    background-color: red;
-    width: 100%;
-    height: 100%;
-    border: grey 5px solid;
-    /*margin: 0% 5% 5% 0%;*/
-}
-
 div#memory_board{
-    background:darkslategrey;
-    border:#999 1px solid;
+    color: white;
+    /*background:darkslategrey;*/
+    background:slategrey;
+    border: orangered 10px solid;
     width:100%;
     height:40em;
     padding: 5%;
@@ -18,24 +12,16 @@ div#memory_board{
     /*margin:0px auto;*/
 }
 div#memory_board > div{
-    /*background: url(tile_bg.jpg) no-repeat;*/
-    /*border:#000 1px solid;*/
-    /*width:71px;*/
-    /*height:71px;*/
-    /*float:left;*/
-    /*margin:10px;*/
-    /*padding:20px;*/
-    /*font-size:64px;*/
-    /*cursor:pointer;*/
-    /*text-align:center;*/
     height: 20%;
     width: 20%;
     margin: 2.5%;
     float: left;
-    font-size: 3em;
+    font-size: 5em;
+    font-family: monospace;
     text-align: center;
-    /*text-align-all: center;*/
-    border:darkorange 5px solid;
+    text-align-all: center;
+    border:orangered 3px solid;
+    background-color: darkslategrey;
 }
 #gameControlDisplay{
     text-align: center;
@@ -44,18 +30,7 @@ div#memory_board > div{
     /*padding-left: auto;*/
     /*padding-right: auto;*/
 }
-/*#gameControlDisplay>li{*/
-   /*align: center;*/
-/*}*/
-/*#totalClickDisplay{*/
-    /*background-color: lightblue;*/
-
-/*}*/
-/*.tile{*/
-    /*height: 20%;*/
-    /*width: 20%;*/
-    /*float: left;*/
-    /*font-size: 3em;*/
-    /*text-align: center;*/
-    /*border:#000 1px solid;*/
-/*}*/
+.button{
+    background-color: orangered;
+    transition: background-color 300ms ease-out;
+}

@@ -55,7 +55,7 @@ function newBoard(){
 // first it checks if it is the first turn of play, in which case it adds the current value to the memoryValues array
 function memoryFlipTile(tile,val){
     if(tile.innerHTML === "" && memoryValues.length < 2){
-        tile.style.background = '#FFF';
+        tile.style.background = 'orangered';
         tile.innerHTML = val;
         // checks to see if its the first turn, if so it pushes the value to the memoryValues array
         if(memoryValues.length === 0){
